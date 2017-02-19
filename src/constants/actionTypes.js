@@ -1,0 +1,4 @@
+export const ADD_SWATCH = 'ADD_SWATCH';
+export const DELETE_SWATCH = 'DELETE_SWATCH';
+export const EDIT_SWATCH_RGB = 'EDIT_SWATCH_RGB';
+export const EDIT_SWATCH_HEX = 'EDIT_SWATCH_HEX';

@@ -1,0 +1,42 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "liga", "kern";
+  font-size: calc(16px + 1vw);
+}
+
+body {
+  font-family: 'Varela Round', sans-serif;
+  font-weight: 700;
+  font-size: calc(16px + 1vw);
+}
+
+html, body, #root, .app {
+  height: 100%;
+  overflow: hidden;
+}
+
+button {
+  color: inherit;
+  cursor: pointer;
+  font-family: inherit;
+  border: 3px solid;
+  background: none;
+  width: 2em;
+  height: 2em;
+  border-radius: 3px;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: 700;
+}
+
+.app {
+  height: 100%;
+  display: flex;
+  color: #161719;
+  flex-direction: column;
+  transition: background 300ms ease-out;
+}
