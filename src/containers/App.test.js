@@ -14,6 +14,6 @@ it('renders without crashing', () => {
     <Provider store={store}>
       <App />
     </Provider>,
-    document.getElementById(div),
+    div,
   );
 });
