@@ -10,4 +10,5 @@ script:
 deploy:
   provider: surge
   project: ./build/
+  domain: https://colorswap.surge.sh
   skip_cleanup: true
