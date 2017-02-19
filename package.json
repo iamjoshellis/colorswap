@@ -1,6 +1,6 @@
 {
   "name": "colorswap",
-  "homepage": "https://iamjoshellis.github.io/colorswap",
+  "homepage": "https://colorswap.surge.sh",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
